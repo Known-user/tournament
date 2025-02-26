@@ -5,7 +5,7 @@ import { useState } from "react"
 import { createTournament } from "../utils/api"
 import type { CreateTournament } from "../types/tournament"
 import { motion, AnimatePresence } from "framer-motion"
-import { Trophy, Calendar, DollarSign, AlignLeft, Check, Clock, CheckCircle } from "lucide-react"
+import { Trophy, Calendar, DollarSign, AlignLeft, Clock, CheckCircle } from "lucide-react"
 
 export default function CreateTournamentForm() {
   const [formData, setFormData] = useState<CreateTournament>({
